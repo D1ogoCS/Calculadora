@@ -1,7 +1,3 @@
-;Trabalho feito por
-;Diogo Santos, N?24011
-;Joao Crisostomo, N?22821
-;Antonio Dias,N?22828
 .model small ; codigo<=64k e dados<=64k com um segmento para codigo e outro para dados
 .stack ;A pilha obedece a regra LIFO(Last in First out)
 .data
@@ -37,10 +33,10 @@ msg11 db "1 - SIM   2 - NAO   ", 0dh,0ah
       
 msg12 db "Essa opcao nao e valida!",'$'
 
-msg13 db "Trabalho realizado por:",0dh,0ah
-      db "Diogo Santos, N 24011",0dh,0ah
-      db "Joao Crisostomo, N 22821",0dh,0ah
-      db "Antonio Dias, N 22828",0dh,0ah
+msg13 db "",0dh,0ah
+      db "",0dh,0ah
+      db "",0dh,0ah
+      db "",0dh,0ah
       db "Obrigado",'$'
 
 mensagem macro msg  ;Criamos uma macro para imprimir as mensagems. As macros nao presisam de palavra reservada para ser chamada e pode receber variaveis de entrada. Permitem simplificar o codigo
