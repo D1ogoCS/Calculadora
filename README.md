@@ -15,4 +15,3 @@
 ### Tecnologias utilizadas:
 - Linguagem Assembly
 
-### Resultados:
